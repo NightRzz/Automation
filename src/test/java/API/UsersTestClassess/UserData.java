@@ -1,4 +1,4 @@
-package API;
+package API.UsersTestClassess;
 
 public class UserData {
     private String name;
