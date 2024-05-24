@@ -1,4 +1,4 @@
-package API.RegTestClasses;
+package API.ReqRes.RegTestClasses;
 
 public class RegTrue {
     private Integer id;

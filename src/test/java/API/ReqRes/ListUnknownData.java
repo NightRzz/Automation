@@ -1,4 +1,4 @@
-package API;
+package API.ReqRes;
 
 public class ListUnknownData {
     private Integer id;

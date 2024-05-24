@@ -1,4 +1,4 @@
-package API.RegTestClasses;
+package API.ReqRes.RegTestClasses;
 
 public class RegFail {
     private String error;

@@ -1,9 +1,10 @@
-package API;
+package API.ReqRes;
 
-import API.RegTestClasses.*;
-import API.UsersTestClassess.ListUsersData;
-import API.UsersTestClassess.UserData;
-import API.UsersTestClassess.UserDataResp;
+import API.ReqRes.RegTestClasses.*;
+import API.ReqRes.UsersTestClassess.ListUsersData;
+import API.ReqRes.UsersTestClassess.UserData;
+import API.ReqRes.UsersTestClassess.UserDataResp;
+import API.Specifications;
 import io.restassured.http.ContentType;
 import org.junit.Assert;
 import org.junit.Test;

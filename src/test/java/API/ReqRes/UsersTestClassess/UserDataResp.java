@@ -1,4 +1,4 @@
-package API.UsersTestClassess;
+package API.ReqRes.UsersTestClassess;
 
 public class UserDataResp extends UserData {
     private String updatedAt;
