@@ -18,8 +18,9 @@ public class TestClass {
                 .then().statusCode(200)
                 .extract().body()
                 .as(PostsData.class);
-        Assert.assertEquals("sunt aut facere repellat provident occaecati excepturi optio reprehenderit", post.getTitle());
-        //checks if the title of the post with id 1 is correct
+        Assert.assertEquals("sunt aut facere repellat provident occaecati excepturi optio reprehenderit", post.getTitle());//checks if the title of the post with id 1 is correct
+        Assert.assertEquals("1", post.getUserId().toString());//checks if the id of post creator is 1
+
     }
     @Test // Test 2
     public void UpdatePostWithId2() {
